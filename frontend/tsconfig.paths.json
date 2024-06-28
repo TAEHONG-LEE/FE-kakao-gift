@@ -1,15 +1,15 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
       "baseUrl": "./src",
       "paths": {
-        "@pages": ["./pages/index.ts"],
-        "@pages/*": ["./pages/*"],
-  
-        "@components": ["./components/index.ts"],
-        "@components/*": ["./components/*"],
-  
-        "@hooks": ["./hooks/index.ts"],
-        "@hooks/*": ["./hooks/*"]
+          "@pages": ["./pages/index.ts"],
+          "@pages/*": ["./pages/*"],
+          "@components": ["./components/index.ts"],
+          "@components/*": ["./components/*"],
+          "@hooks": ["./hooks/index.ts"],
+          "@hooks/*": ["./hooks/*"],
+          "@stories": ["./stories/index.ts"],
+          "@stories/*": ["./stories/*"]
       }
-    }
   }
+}

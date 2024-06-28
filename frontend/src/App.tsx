@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Button } from "@components/Button";
-import { PrimaryArgs } from "@components/Button.stories";
+import { Button } from "@stories/Button";
+import { PrimaryArgs } from "@stories/Button.stories";
 
 function App() {
     return (
