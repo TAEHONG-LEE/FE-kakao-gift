@@ -2,6 +2,7 @@ import React from 'react';
 import './button.css';
 
 interface ButtonProps {
+  theme?: 'default' | 'dark' | 'light'; // 테마 props 추가 
   /**
    * Is this the principal call to action on the page?
    */
@@ -13,7 +14,7 @@ interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large' | 'responsive';
   /**
    * Button contents
    */
@@ -31,6 +32,7 @@ export const Button = ({
   primary = false,
   size = 'medium',
   backgroundColor,
+  theme = 'default', // 기본 테마 설정
   label,
   ...props
 }: ButtonProps) => {
