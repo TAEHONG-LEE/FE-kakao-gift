@@ -1,15 +1,18 @@
+// tsconfig.paths.json
 {
   "compilerOptions": {
-      "baseUrl": "./src",
-      "paths": {
-          "@pages": ["./pages/index.ts"],
-          "@pages/*": ["./pages/*"],
-          "@components": ["./components/index.ts"],
-          "@components/*": ["./components/*"],
-          "@hooks": ["./hooks/index.ts"],
-          "@hooks/*": ["./hooks/*"],
-          "@stories": ["./stories/index.ts"],
-          "@stories/*": ["./stories/*"]
-      }
+    "baseUrl": "./src",
+    "paths": {
+      "@pages": ["./pages/index.ts"],
+      "@pages/*": ["./pages/*"],
+      "@components": ["./components/index.ts"],
+      "@components/*": ["./components/*"],
+      "@hooks": ["./hooks/index.ts"],
+      "@hooks/*": ["./hooks/*"],
+      "@stories": ["./stories/index.ts"],
+      "@stories/*": ["./stories/*"],
+      "@styles": ["./styles"],  // 새로운 styles 경로 추가
+      "@styles/*": ["./styles/*"]  // 추가 경로 설정
+    }
   }
 }
