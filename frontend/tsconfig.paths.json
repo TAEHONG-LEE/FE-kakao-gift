@@ -1,4 +1,3 @@
-// tsconfig.paths.json
 {
   "compilerOptions": {
     "baseUrl": "./src",
@@ -11,8 +10,8 @@
       "@hooks/*": ["./hooks/*"],
       "@stories": ["./stories/index.ts"],
       "@stories/*": ["./stories/*"],
-      "@styles": ["./styles"],  // 새로운 styles 경로 추가
-      "@styles/*": ["./styles/*"]  // 추가 경로 설정
+      "@styles": ["./styles"], 
+      "@styles/*": ["./styles/*"]  
     }
   }
 }
